@@ -1,0 +1,31 @@
+@import "global/_null";
+@import "global/_mixins";
+@import "global/_fonts";
+@import "global/variables";
+@import "global/_base";
+
+// тестовые стили
+body {
+  background-color: rgb(143, 173, 143);
+  display: flex;
+  flex-direction: column;
+  text-align: center; /* Выравнивание по центру */
+}
+h1 {
+  @include adaptiv-font(40, 24);
+  font-family: "KronaOne-Regular";
+  padding-top: 10px;
+}
+
+p {
+  @include adaptiv-font(24, 16);
+  line-height: 50px;
+  font-family: "Pangolin-Regular";
+  text-align: justify;
+  margin: 40px 0px;
+}
+
+div {
+  background: url(../img/1.jpg);
+  padding-bottom: 10px;
+}
