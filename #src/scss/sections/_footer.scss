@@ -1,0 +1,21 @@
+.footer {
+  padding: 10px 0px;
+  display: flex;
+  background-color: $background;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-size: 1.1rem;
+  color: $main;
+  font-family: 'Balsamiq Sans', serif;
+
+}
+
+.footer-link {
+  font-size: 1.1rem;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 600;
+  font-style: italic;
+}

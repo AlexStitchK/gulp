@@ -1,0 +1,54 @@
+.contact {
+  background-color: $background;
+  padding: 70px;
+}
+
+.contact-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  line-height: 1.1;
+  padding: 20px 0px;
+}
+
+.contact-text {
+  font-family: 'Balsamiq Sans', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom:60px;
+  max-width: 600px;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+
+}
+.fas, .fab {
+  font-size: 24px;
+}
+.contact-item span {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+  color:$main;
+  letter-spacing: 0.05em;
+  font-family: 'Balsamiq Sans', serif;
+}

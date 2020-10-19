@@ -1,0 +1,25 @@
+
+.header__list {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.header__list li {
+  list-style: none;
+  margin: 0px 0px 0px 21px;
+}
+.header__link {
+  font-size: 16px;
+  padding-left: 20px;
+  color: $nav;
+  text-decoration: none;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 600;
+  font-style: italic;
+  transition: 0.4s;
+}
+
+.header__link:hover {
+  color: $button;
+}

@@ -1,0 +1,30 @@
+
+@import "global/_null";
+// @import "global/_mixins";
+@import "global/_fonts";
+@import "global/variables";
+@import "sections/_nav";
+@import "global/_base";
+
+
+// h1 {
+//   @include adaptiv-font(40, 24);
+//   font-family: "KronaOne-Regular";
+//   padding-top: 10px;
+// }
+
+// p {
+//   @include adaptiv-font(24, 16);
+//   line-height: 50px;
+//   font-family: "Pangolin-Regular";
+//   text-align: justify;
+// }
+
+@import "sections/_header";
+@import "sections/_about";
+@import "sections/_product";
+@import "sections/_instagram";
+@import "sections/_contact";
+@import "sections/_footer";
+
+@import "global/_response";

@@ -1,0 +1,51 @@
+.inst {
+  margin: auto;
+  padding: 10px 0px;
+  background-color: $background;
+}
+
+
+.inst-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inst-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.1;
+  padding: 50px 0px;
+  font-family: 'Balsamiq Sans', serif;
+}
+
+.inst-link {
+  font-size: 22px;
+  line-height: 1.1;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 600;
+  color: $main;
+  font-style: italic;
+
+}
+
+.inst-item {
+	cursor: pointer;
+	overflow: hidden;
+	min-width: 250px;
+}
+
+
+.inst-item-img {
+	object-fit: cover;
+	width: 250px;
+	height: 250px;
+	transition: transform 500ms ease;
+}
+
+.inst-item-img:hover {
+	transform: scale(1.1);
+}

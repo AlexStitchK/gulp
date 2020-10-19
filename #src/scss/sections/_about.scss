@@ -1,0 +1,29 @@
+.about {
+padding: 150px 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: $background;
+
+}
+
+.like-h3 {
+  color:$main;
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Balsamiq Sans', serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.about-text {
+  max-width: 800px;
+  font-family: 'Balsamiq Sans', serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color:$main;
+  letter-spacing: 0.05em;
+}

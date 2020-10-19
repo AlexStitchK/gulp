@@ -1,0 +1,69 @@
+.product {
+  background-color: $background;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 100px;
+  flex-wrap: wrap;
+}
+.product-column {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px;
+  max-width: 450px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-item-cont {
+display: flex;
+padding-top: 30px;
+align-items: flex-start;
+flex-direction: column;
+justify-content: center;
+}
+
+.product-item-image{
+width: 100%;
+height: 300px;
+border-radius: 10px;
+}
+
+.product-num {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+  font-weight: 900;
+  color:  #471210;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.product-title{
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.product-cost{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+  padding-bottom: 10px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.product-desc, .product-color, .product-m, .product-size, .product-guaranty {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #030303;
+  padding-bottom: 3px;
+  font-family: 'Balsamiq Sans', cursive;
+}
